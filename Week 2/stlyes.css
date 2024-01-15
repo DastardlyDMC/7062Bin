@@ -13,3 +13,16 @@ body{
 .childfoot{
     color: aqua;
 }
+
+.pad{
+    padding: 20px;
+    margin: 10px;
+}
+
+.child2{
+    display: flex;
+}
+
+.grand1, .grand2{
+    width: 50%;
+}
