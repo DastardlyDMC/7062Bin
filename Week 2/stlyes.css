@@ -1,0 +1,15 @@
+
+body{
+    background-color: black;
+}
+
+.parent{
+    background-color: white;
+}
+
+.parent .child{
+    background-color: brown;
+}
+.childfoot{
+    color: aliceblue;
+}
