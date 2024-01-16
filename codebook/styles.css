@@ -15,6 +15,7 @@ header{
     width:900px;
     margin: 0 auto;
     margin-top: 20px;
+    background-color: white;
 }
 
 
@@ -69,3 +70,29 @@ nav li a {
     padding-top: 10px;
   }
 
+.content{
+    display: flex;
+}
+
+.side img{
+    width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: black
+    }
+    .content{
+        flex-direction: column;
+    }
+    .container{
+        width: 95%;
+        }
+    .contenttext{
+        width: 90%;
+    }
+    .side{
+        display: flex;
+        justify-content: center;
+    }
+}
